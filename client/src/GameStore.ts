@@ -53,7 +53,8 @@ export class GameStore {
       }
     });
 
-    this.socket.on("playerLeft", (playerId: string) => {
+    //playerId: string
+    this.socket.on("playerLeft", () => {
       this.gameMessage = "Opponent left the game. Waiting for new opponent...";
     });
 
