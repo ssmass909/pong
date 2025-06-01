@@ -4,7 +4,7 @@
   "description": "Multiplayer Ping Pong Game Server",
   "main": "dist/server.js",
   "scripts": {
-    "build": "tsc",
+    "build": "npm i && tsc",
     "start": "node dist/server.js",
     "dev": "ts-node src/server.ts",
     "watch": "tsc -w"
