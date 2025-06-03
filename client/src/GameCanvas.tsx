@@ -1,8 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { observer } from "mobx-react-lite";
 import { GameStore } from "./GameStore";
-import { GAME_CONSTANTS } from "./types.ts";
-
+import { GAME_CONSTANTS } from "./types";
 interface GameCanvasProps {
   gameStore: GameStore;
 }
